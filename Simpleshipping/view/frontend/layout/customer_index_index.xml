@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd"
+>
+    <body>
+        <referenceContainer name="content">
+            <block class="Codilar\Simpleshipping\Block\Customer"
+                   template="Codilar_Simpleshipping::customer.phtml"
+                   name="codilar_simpleshipping_customer"
+                   cacheable="false"
+                   
+            />
+        </referenceContainer>
+    </body>
+</page>
